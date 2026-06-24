@@ -4,7 +4,7 @@ Frontend em Next.js para a API de gestão de Trabalhos de Conclusão de Curso fo
 
 ## Autores
 
-- [Gustavo Henrique Martins Filho](https://github.com/GustavoHMFilho)
+- [Gustavo Henrique Moraes Filho](https://github.com/GustavoHMFilho)
 - [Lucas Reis](https://github.com/lucasreissvn)
 
 ## Funcionalidades
