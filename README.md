@@ -23,9 +23,9 @@ Frontend em Next.js para a API de gestão de Trabalhos de Conclusão de Curso fo
 ## Estrutura
 
 ```text
-frontend/                                      # Next.js + TypeScript
-projeto-gestao-tccs-main/projeto-gestao-tccs-main/  # Django REST Framework
-docker-compose.yml                             # Execução integrada
+frontend/           # Next.js + TypeScript
+backend/            # Django REST Framework
+docker-compose.yml  # Execução integrada
 ```
 
 ## Execução local
@@ -35,7 +35,7 @@ docker-compose.yml                             # Execução integrada
 No PowerShell:
 
 ```powershell
-cd projeto-gestao-tccs-main/projeto-gestao-tccs-main
+cd backend
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt

@@ -5,10 +5,10 @@ frontend/.env.local
 frontend/*.log
 
 # Backend
-projeto-gestao-tccs-main/projeto-gestao-tccs-main/.venv/
-projeto-gestao-tccs-main/projeto-gestao-tccs-main/db.sqlite3
-projeto-gestao-tccs-main/projeto-gestao-tccs-main/media/
-projeto-gestao-tccs-main/projeto-gestao-tccs-main/*.log
+backend/.venv/
+backend/db.sqlite3
+backend/media/
+backend/*.log
 **/__pycache__/
 *.pyc
 
@@ -17,6 +17,7 @@ tmp/
 .agents/
 .codex/
 .pnpm-store/
+output/
 projeto-gestao-tccs-main.zip
 Trabalho-Prático-2-Projeto-Tecnologia-Livre-2026-1.pdf
 .DS_Store
