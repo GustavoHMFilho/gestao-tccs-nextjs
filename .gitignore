@@ -1,0 +1,23 @@
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/*.log
+
+# Backend
+projeto-gestao-tccs-main/projeto-gestao-tccs-main/.venv/
+projeto-gestao-tccs-main/projeto-gestao-tccs-main/db.sqlite3
+projeto-gestao-tccs-main/projeto-gestao-tccs-main/media/
+projeto-gestao-tccs-main/projeto-gestao-tccs-main/*.log
+**/__pycache__/
+*.pyc
+
+# Ferramentas e sistema
+tmp/
+.agents/
+.codex/
+.pnpm-store/
+projeto-gestao-tccs-main.zip
+Trabalho-Prático-2-Projeto-Tecnologia-Livre-2026-1.pdf
+.DS_Store
+Thumbs.db

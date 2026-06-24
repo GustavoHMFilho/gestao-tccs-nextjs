@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./projeto-gestao-tccs-main/projeto-gestao-tccs-main
+    ports:
+      - "8000:8000"
+    volumes:
+      - django_data:/app/data
+      - media_data:/app/media
+    environment:
+      SQLITE_PATH: /app/data/db.sqlite3
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      BACKEND_URL: http://backend:8000
+    depends_on:
+      - backend
+
+volumes:
+  django_data:
+  media_data:
